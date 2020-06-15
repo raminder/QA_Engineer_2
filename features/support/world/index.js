@@ -20,6 +20,10 @@ function buildDriver() {
 }
 
 class CustomWorld {
+
+  //To store registered email id , users array is created
+  users = new Array();
+
   goToJobsPage() {
     return this.driver.get(BASE_URL);
   }
