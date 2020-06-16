@@ -2,7 +2,7 @@ const { setWorldConstructor, setDefaultTimeout } = require('cucumber');
 const { Builder, Capabilities } = require('selenium-webdriver');
 require('chromedriver');
 
-const DEFAULT_TIMEOUT = 60000;
+const DEFAULT_TIMEOUT = 90000;
 const BASE_URL = 'https://jobs.economist.com';
 
 function buildDriver() {
