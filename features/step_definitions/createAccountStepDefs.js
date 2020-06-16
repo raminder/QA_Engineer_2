@@ -12,7 +12,7 @@ Given('I click create account link', async () => {
     return createAccount.clickCreateAccountLink();
 });
 
-Then('I see create account page open', async () => {
+When('I see create account page open', async () => {
     return createAccount.isCreateAccountOpened();
 });
 
@@ -44,6 +44,6 @@ When('I click Create Account button', async () => {
     return createAccount.clickCreateAccountButton();
 });
 
-Then('I should be successfully registered with email {string}', async (email) => {
-    return createAccount.registerSucessfully(email);
+Then('I should be successfully registered', async () => {
+    return createAccount.registerSucessfully();
 });

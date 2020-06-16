@@ -6,7 +6,7 @@ const chai = require('chai');
 class HomePage {
 
   isHomePageOpened() {
-    return driver.getCurrentUrl().then(url => {
+    return World.driver.getCurrentUrl().then(url => {
       return chai.expect(url).to.equal('https://jobs.economist.com/');
     });
   }

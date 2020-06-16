@@ -1,6 +1,7 @@
 const World = require('../support/world');
 const { By, until } = require('selenium-webdriver')
 const chai = require('chai');
+var currentEmail;
 
 class CreateAccount {
 
@@ -25,7 +26,8 @@ class CreateAccount {
     }
 
     enterEmail(email) {
-        return World.driver.findElement(By.id('emailaddress')).sendKeys(Date.now() + email);
+        currentEmail = Date.now() + email;
+        return World.driver.findElement(By.id('emailaddress')).sendKeys(currentEmail);
     }
 
     enterPassword(password) {
@@ -45,19 +47,18 @@ class CreateAccount {
 
     }
 
-    registerSucessfully(email) {
+    registerSucessfully() {
         //Wait for registartion success page to be rendered
-        return World.driver.wait(until.elementLocated(By.xpath("//h1[text()='Account created']")), 5 * 1000);
+        World.driver.wait(until.elementLocated(By.xpath("//h1[text()='Account created']")), 5 * 1000);
         return World.driver.findElement(By.id('message')).isDisplayed().then(value => {
             if (value) {
                 return World.driver.findElement(By.id('message')).getText().then(message => {
-                    chai.expect(message).to.include('We have sent a confirmation email to ' + email);
+                    chai.expect(message).to.include('We have sent a confirmation email to ' + currentEmail);
                     //Storing regsitered email id in users array
-                    return World.users.push(email);
+                    return World.users.push(currentEmail);
                 });
-            } else {
-                console.log('Failed to register an account');
-            }
+            } 
+            return true
         });
     }
 }
