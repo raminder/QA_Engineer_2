@@ -15,7 +15,9 @@ class NavigationBar {
   clickFindJob() {
     return World.driver.findElement(By.linkText('Find a job')).isDisplayed().then((value) => {
       if (value) {
-        return World.driver.findElement(By.linkText('Find a job')).click();
+        return World.driver.findElement(By.linkText('Find a job')).click().then(() => {
+          return World.driver.manage().setTimeouts({ implicit: 10000 });
+        });
       }
       return false;
     });

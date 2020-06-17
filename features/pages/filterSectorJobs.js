@@ -8,7 +8,9 @@ class FilterSectorJobs {
   clickJobSector() {
     return World.driver.findElement(By.css('.browse__items li small')).getText().then((text) => {
       jobsCount = parseInt(text, 10);
-      return World.driver.findElement(By.css('.browse__items li a')).click().then(() => World.driver.wait(until.elementLocated(By.id('browsing')), 10 * 1000));
+      return World.driver.findElement(By.css('.browse__items li a')).click().then(() => {
+        return World.driver.wait(until.elementLocated(By.id('browsing')), 10 * 1000);
+      });
     });
   }
 
@@ -19,7 +21,9 @@ class FilterSectorJobs {
   }
 
   clickViewJobDetailsLink() {
-    return World.driver.findElement(By.css('.lister__view-details')).click().then(() => World.driver.manage().setTimeouts({ implicit: 10000 }));
+    return World.driver.findElement(By.css('.lister__view-details')).click().then(() => {
+      return World.driver.manage().setTimeouts({ implicit: 10000 });
+    });
   }
 
   isApplyButtonDisplayed() {

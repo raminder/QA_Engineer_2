@@ -2,22 +2,42 @@ const { Then, When } = require('cucumber');
 const navigationBar = require('../pages/navigationBar');
 const homePage = require('../pages/homePage');
 
-When('I click home page link', async () => navigationBar.clickHomeLink());
+When('I click home page link', async () => {
+  return navigationBar.clickHomeLink();
+});
 
-Then('I should see home page', async () => homePage.isHomePageOpened());
+Then('I should see home page', async () => {
+  return homePage.isHomePageOpened();
+});
 
-When('I click Find a job link', async () => navigationBar.clickFindJob());
+When('I click Find a job link', async () => {
+  return navigationBar.clickFindJob();
+});
 
-Then('I should see jobs page is open', async () => navigationBar.isJobsPageOpened());
+Then('I should see jobs page is open', async () => {
+  return navigationBar.isJobsPageOpened();
+});
 
-When('I click Job Alerts link', async () => navigationBar.clickJobAlerts());
+When('I click Job Alerts link', async () => {
+  return navigationBar.clickJobAlerts();
+});
 
-Then('I should see jobs Alerts is open', async () => navigationBar.isJobAlertsPageOpened());
+Then('I should see jobs Alerts is open', async () => {
+  return navigationBar.isJobAlertsPageOpened();
+});
 
-When('I click Search recruiters link', async () => navigationBar.clickSearchRecruitersLink());
+When('I click Search recruiters link', async () => {
+  return navigationBar.clickSearchRecruitersLink();
+});
 
-Then('I should see recruiters page is open', async () => navigationBar.isRecruitersPageOpened());
+Then('I should see recruiters page is open', async () => {
+  return navigationBar.isRecruitersPageOpened();
+});
 
-When('I click Jobs blog link', async () => navigationBar.clickJobsBlog());
+When('I click Jobs blog link', async () => {
+  return navigationBar.clickJobsBlog();
+});
 
-Then('I should see jobs blog page is open', async () => navigationBar.isJobsBlogPageOpened());
+Then('I should see jobs blog page is open', async () => {
+  return navigationBar.isJobsBlogPageOpened();
+});

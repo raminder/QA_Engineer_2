@@ -1,12 +1,22 @@
 const { When, Then } = require('cucumber');
 const searchJobs = require('../pages/searchJobs');
 
-When('I enter job term {string}', async (title) => searchJobs.searchWithJobTitle(title));
+When('I enter job term {string}', async (title) => {
+  return searchJobs.searchWithJobTitle(title);
+});
 
-When('I click search button', async () => searchJobs.clickSearchButton());
+When('I click search button', async () => {
+  return searchJobs.clickSearchButton();
+});
 
-Then('I should see relevant job results', async () => searchJobs.searchResultsDisplayed());
+Then('I should see relevant job results', async () => {
+  return searchJobs.searchResultsDisplayed();
+});
 
-When('I enter job location {string}', async (location) => searchJobs.searchWithLocation(location));
+When('I enter job location {string}', async (location) => {
+  return searchJobs.searchWithLocation(location);
+});
 
-When('I choose distance', async () => searchJobs.selectDistance());
+When('I choose distance', async () => {
+  return searchJobs.selectDistance();
+});
