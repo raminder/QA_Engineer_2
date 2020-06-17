@@ -54,7 +54,7 @@ class HomePage {
 
   isFooterDisplayed() {
     return World.driver.findElement(By.className('contentinfo')).isDisplayed().then(value => {
-      return chai.expect(value).to.be.true
+      return chai.expect(value).to.be.true;
     });
   }
 }
