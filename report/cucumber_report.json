@@ -23,7 +23,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 30000000
             }
           },
           {
@@ -32,11 +32,11 @@
             "line": 4,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 22259000000
+              "duration": 11250000000
             }
           },
           {
@@ -45,11 +45,11 @@
             "line": 5,
             "name": "I see create account link",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:7"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 253000000
+              "duration": 460000000
             }
           },
           {
@@ -58,11 +58,11 @@
             "line": 6,
             "name": "I click create account link",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:11"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 1105000000
+              "duration": 742000000
             }
           },
           {
@@ -71,11 +71,11 @@
             "line": 7,
             "name": "I see create account page open",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:15"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 1615000000
+              "duration": 743000000
             }
           },
           {
@@ -84,11 +84,11 @@
             "line": 8,
             "name": "I enter firstname 'test'",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:19"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 1652000000
+              "duration": 167000000
             }
           },
           {
@@ -97,11 +97,11 @@
             "line": 9,
             "name": "I enter lastname 'user'",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:23"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 188000000
+              "duration": 146000000
             }
           },
           {
@@ -110,11 +110,11 @@
             "line": 10,
             "name": "I enter email 'test@gmail.com'",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:27"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 476000000
+              "duration": 1060000000
             }
           },
           {
@@ -123,11 +123,11 @@
             "line": 11,
             "name": "I enter password 'testing@123'",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:31"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 621000000
+              "duration": 206000000
             }
           },
           {
@@ -136,11 +136,11 @@
             "line": 12,
             "name": "I enter confirmpassword 'testing@123'",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:35"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 296000000
+              "duration": 223000000
             }
           },
           {
@@ -149,11 +149,11 @@
             "line": 13,
             "name": "I agree to Terms & Conditions",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:39"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 136000000
+              "duration": 529000000
             }
           },
           {
@@ -162,11 +162,11 @@
             "line": 14,
             "name": "I click Create Account button",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:43"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 3525000000
+              "duration": 2864000000
             }
           },
           {
@@ -175,11 +175,11 @@
             "line": 15,
             "name": "I should be successfully registered",
             "match": {
-              "location": "features\\step_definitions\\createAccountStepDefs.js:47"
+              "location": "features\\step_definitions\\createAccountStepDefs.js:25"
             },
             "result": {
               "status": "passed",
-              "duration": 321000000
+              "duration": 335000000
             }
           },
           {
@@ -190,7 +190,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1338000000
+              "duration": 290000000
             }
           },
           {
@@ -200,7 +200,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -231,7 +232,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 50000000
             }
           },
           {
@@ -240,11 +241,11 @@
             "line": 4,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 13123000000
+              "duration": 11637000000
             }
           },
           {
@@ -253,11 +254,11 @@
             "line": 5,
             "name": "I should see the jobs sector Lists",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:26"
+              "location": "features\\step_definitions\\homePageStepDefs.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 70000000
+              "duration": 126000000
             }
           },
           {
@@ -266,11 +267,11 @@
             "line": 6,
             "name": "I click any job sector",
             "match": {
-              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:7"
+              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 2626000000
+              "duration": 3003000000
             }
           },
           {
@@ -279,11 +280,11 @@
             "line": 7,
             "name": "I should see job results for that sector",
             "match": {
-              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:11"
+              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 26000000
+              "duration": 73000000
             }
           },
           {
@@ -294,7 +295,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 528000000
+              "duration": 297000000
             }
           },
           {
@@ -304,7 +305,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -325,7 +327,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 53000000
             }
           },
           {
@@ -334,11 +336,11 @@
             "line": 10,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 22344000000
+              "duration": 12370000000
             }
           },
           {
@@ -347,11 +349,11 @@
             "line": 11,
             "name": "I should see the jobs sector Lists",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:26"
+              "location": "features\\step_definitions\\homePageStepDefs.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 70000000
+              "duration": 80000000
             }
           },
           {
@@ -360,11 +362,11 @@
             "line": 12,
             "name": "I click any job sector",
             "match": {
-              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:7"
+              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 3243000000
+              "duration": 1996000000
             }
           },
           {
@@ -373,11 +375,11 @@
             "line": 13,
             "name": "I should see job results for that sector",
             "match": {
-              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:11"
+              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 747000000
             }
           },
           {
@@ -386,11 +388,11 @@
             "line": 14,
             "name": "I click view details link",
             "match": {
-              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:15"
+              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 1262000000
+              "duration": 969000000
             }
           },
           {
@@ -399,11 +401,11 @@
             "line": 15,
             "name": "I should see detailed job with apply button",
             "match": {
-              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:19"
+              "location": "features\\step_definitions\\filterSectorJobsStepDefs.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1575000000
+              "duration": 976000000
             }
           },
           {
@@ -414,7 +416,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1109000000
+              "duration": 970000000
             }
           },
           {
@@ -424,8 +426,7 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -456,7 +457,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 62000000
             }
           },
           {
@@ -465,11 +466,11 @@
             "line": 4,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 13088000000
+              "duration": 18588000000
             }
           },
           {
@@ -478,11 +479,11 @@
             "line": 5,
             "name": "I should see the footer",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:38"
+              "location": "features\\step_definitions\\homePageStepDefs.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 115000000
+              "duration": 63000000
             }
           },
           {
@@ -491,11 +492,11 @@
             "line": 6,
             "name": "about us link in footer should be clickable",
             "match": {
-              "location": "features\\step_definitions\\footerStepDefs.js:7"
+              "location": "features\\step_definitions\\footerStepDefs.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 2458000000
+              "duration": 4139000000
             }
           },
           {
@@ -506,7 +507,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 411000000
+              "duration": 215000000
             }
           },
           {
@@ -537,7 +538,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 118000000
+              "duration": 57000000
             }
           },
           {
@@ -546,11 +547,11 @@
             "line": 9,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 10776000000
+              "duration": 14534000000
             }
           },
           {
@@ -559,11 +560,11 @@
             "line": 10,
             "name": "I should see the footer",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:38"
+              "location": "features\\step_definitions\\homePageStepDefs.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 160000000
+              "duration": 52000000
             }
           },
           {
@@ -572,11 +573,11 @@
             "line": 11,
             "name": "contact us link in footer should be clickable",
             "match": {
-              "location": "features\\step_definitions\\footerStepDefs.js:11"
+              "location": "features\\step_definitions\\footerStepDefs.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1532000000
+              "duration": 2144000000
             }
           },
           {
@@ -587,7 +588,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 326000000
+              "duration": 277000000
             }
           },
           {
@@ -597,7 +598,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -618,7 +620,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52000000
+              "duration": 57000000
             }
           },
           {
@@ -627,11 +629,11 @@
             "line": 14,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 7984000000
+              "duration": 9328000000
             }
           },
           {
@@ -640,11 +642,11 @@
             "line": 15,
             "name": "I should see the footer",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:38"
+              "location": "features\\step_definitions\\homePageStepDefs.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 383000000
+              "duration": 85000000
             }
           },
           {
@@ -653,11 +655,11 @@
             "line": 16,
             "name": "tnc link in footer should be clickable",
             "match": {
-              "location": "features\\step_definitions\\footerStepDefs.js:15"
+              "location": "features\\step_definitions\\footerStepDefs.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2531000000
+              "duration": 2268000000
             }
           },
           {
@@ -668,7 +670,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 505000000
+              "duration": 202000000
             }
           },
           {
@@ -678,7 +680,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -699,7 +702,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 60000000
             }
           },
           {
@@ -708,11 +711,11 @@
             "line": 19,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 23052000000
+              "duration": 11823000000
             }
           },
           {
@@ -721,11 +724,11 @@
             "line": 20,
             "name": "I should see the footer",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:38"
+              "location": "features\\step_definitions\\homePageStepDefs.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 49000000
+              "duration": 52000000
             }
           },
           {
@@ -734,11 +737,11 @@
             "line": 21,
             "name": "privacy policy link in footer should be clickable",
             "match": {
-              "location": "features\\step_definitions\\footerStepDefs.js:19"
+              "location": "features\\step_definitions\\footerStepDefs.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 2127000000
+              "duration": 3183000000
             }
           },
           {
@@ -749,7 +752,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 421000000
+              "duration": 228000000
             }
           },
           {
@@ -759,8 +762,7 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -781,7 +783,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 46000000
+              "duration": 60000000
             }
           },
           {
@@ -790,11 +792,11 @@
             "line": 24,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 7681000000
+              "duration": 9491000000
             }
           },
           {
@@ -803,11 +805,11 @@
             "line": 25,
             "name": "I should see the footer",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:38"
+              "location": "features\\step_definitions\\homePageStepDefs.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 52000000
+              "duration": 99000000
             }
           },
           {
@@ -816,11 +818,11 @@
             "line": 26,
             "name": "advertise link in footer should be clickable",
             "match": {
-              "location": "features\\step_definitions\\footerStepDefs.js:23"
+              "location": "features\\step_definitions\\footerStepDefs.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 1012000000
+              "duration": 986000000
             }
           },
           {
@@ -831,7 +833,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 357000000
+              "duration": 226000000
             }
           },
           {
@@ -872,7 +874,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58000000
+              "duration": 60000000
             }
           },
           {
@@ -881,11 +883,11 @@
             "line": 4,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 10971000000
+              "duration": 6821000000
             }
           },
           {
@@ -894,11 +896,11 @@
             "line": 5,
             "name": "I should see the navigation bar",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:10"
+              "location": "features\\step_definitions\\homePageStepDefs.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 71000000
+              "duration": 127000000
             }
           },
           {
@@ -907,11 +909,11 @@
             "line": 6,
             "name": "I should see sign in link",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:14"
+              "location": "features\\step_definitions\\homePageStepDefs.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 1049000000
             }
           },
           {
@@ -920,11 +922,11 @@
             "line": 7,
             "name": "I should see create account link",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:18"
+              "location": "features\\step_definitions\\homePageStepDefs.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 43000000
+              "duration": 257000000
             }
           },
           {
@@ -935,7 +937,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 304000000
+              "duration": 247000000
             }
           },
           {
@@ -945,7 +947,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -966,7 +969,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56000000
+              "duration": 60000000
             }
           },
           {
@@ -975,11 +978,11 @@
             "line": 10,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 10180000000
+              "duration": 9497000000
             }
           },
           {
@@ -988,11 +991,11 @@
             "line": 11,
             "name": "I should see the search fields",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:22"
+              "location": "features\\step_definitions\\homePageStepDefs.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 309000000
             }
           },
           {
@@ -1003,7 +1006,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 263000000
+              "duration": 366000000
             }
           },
           {
@@ -1013,7 +1016,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1034,7 +1038,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 50000000
             }
           },
           {
@@ -1043,11 +1047,11 @@
             "line": 14,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 7889000000
+              "duration": 7457000000
             }
           },
           {
@@ -1056,11 +1060,11 @@
             "line": 15,
             "name": "I should see the jobs sector Lists",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:26"
+              "location": "features\\step_definitions\\homePageStepDefs.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 99000000
             }
           },
           {
@@ -1071,7 +1075,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 301000000
+              "duration": 273000000
             }
           },
           {
@@ -1081,8 +1085,7 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -1103,7 +1106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 72000000
+              "duration": 66000000
             }
           },
           {
@@ -1112,11 +1115,11 @@
             "line": 18,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 7704000000
+              "duration": 9389000000
             }
           },
           {
@@ -1125,11 +1128,11 @@
             "line": 19,
             "name": "I should see the jobs blog section",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:30"
+              "location": "features\\step_definitions\\homePageStepDefs.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 91000000
+              "duration": 87000000
             }
           },
           {
@@ -1140,7 +1143,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 305000000
+              "duration": 368000000
             }
           },
           {
@@ -1150,7 +1153,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1171,7 +1175,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 58000000
+              "duration": 65000000
             }
           },
           {
@@ -1180,11 +1184,11 @@
             "line": 22,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 9001000000
+              "duration": 7439000000
             }
           },
           {
@@ -1193,11 +1197,11 @@
             "line": 23,
             "name": "I should see the Featured Jobs section",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:34"
+              "location": "features\\step_definitions\\homePageStepDefs.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 664000000
+              "duration": 208000000
             }
           },
           {
@@ -1208,7 +1212,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 319000000
+              "duration": 276000000
             }
           },
           {
@@ -1239,7 +1243,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 59000000
+              "duration": 63000000
             }
           },
           {
@@ -1248,11 +1252,11 @@
             "line": 26,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 9553000000
+              "duration": 7378000000
             }
           },
           {
@@ -1261,11 +1265,11 @@
             "line": 27,
             "name": "I should see the footer",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:38"
+              "location": "features\\step_definitions\\homePageStepDefs.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 491000000
+              "duration": 748000000
             }
           },
           {
@@ -1276,7 +1280,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 346000000
+              "duration": 279000000
             }
           },
           {
@@ -1318,7 +1322,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 51000000
+              "duration": 52000000
             }
           },
           {
@@ -1327,11 +1331,11 @@
             "line": 4,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 10681000000
+              "duration": 7064000000
             }
           },
           {
@@ -1340,11 +1344,11 @@
             "line": 5,
             "name": "I click home page link",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:7"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 751000000
+              "duration": 1256000000
             }
           },
           {
@@ -1353,11 +1357,11 @@
             "line": 6,
             "name": "I should see home page",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:11"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:7"
             },
             "result": {
               "status": "passed",
-              "duration": 359000000
+              "duration": 101000000
             }
           },
           {
@@ -1368,7 +1372,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 357000000
+              "duration": 264000000
             }
           },
           {
@@ -1378,7 +1382,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1399,7 +1404,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 52000000
+              "duration": 160000000
             }
           },
           {
@@ -1408,11 +1413,11 @@
             "line": 9,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 7699000000
+              "duration": 7861000000
             }
           },
           {
@@ -1421,11 +1426,11 @@
             "line": 10,
             "name": "I click Find a job link",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:15"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 988000000
+              "duration": 1487000000
             }
           },
           {
@@ -1434,11 +1439,11 @@
             "line": 11,
             "name": "I should see jobs page is open",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:19"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:11"
             },
             "result": {
               "status": "passed",
-              "duration": 25000000
+              "duration": 27000000
             }
           },
           {
@@ -1449,7 +1454,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 261000000
+              "duration": 327000000
             }
           },
           {
@@ -1459,8 +1464,7 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -1481,7 +1485,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 64000000
+              "duration": 62000000
             }
           },
           {
@@ -1490,11 +1494,11 @@
             "line": 14,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 9629000000
+              "duration": 9582000000
             }
           },
           {
@@ -1503,11 +1507,11 @@
             "line": 15,
             "name": "I click Job Alerts link",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:23"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1105000000
+              "duration": 896000000
             }
           },
           {
@@ -1516,11 +1520,11 @@
             "line": 16,
             "name": "I should see jobs Alerts is open",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:27"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 22000000
             }
           },
           {
@@ -1531,7 +1535,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 370000000
+              "duration": 193000000
             }
           },
           {
@@ -1541,7 +1545,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1562,7 +1567,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 69000000
             }
           },
           {
@@ -1571,11 +1576,11 @@
             "line": 19,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 7770000000
+              "duration": 7460000000
             }
           },
           {
@@ -1584,11 +1589,11 @@
             "line": 20,
             "name": "I click Search recruiters link",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:31"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1340000000
+              "duration": 1557000000
             }
           },
           {
@@ -1597,11 +1602,11 @@
             "line": 21,
             "name": "I should see recruiters page is open",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:35"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 23000000
             }
           },
           {
@@ -1612,7 +1617,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 333000000
+              "duration": 271000000
             }
           },
           {
@@ -1644,7 +1649,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 60000000
+              "duration": 56000000
             }
           },
           {
@@ -1653,11 +1658,11 @@
             "line": 24,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 8415000000
+              "duration": 8390000000
             }
           },
           {
@@ -1666,11 +1671,11 @@
             "line": 25,
             "name": "I click Jobs blog link",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:39"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:21"
             },
             "result": {
               "status": "passed",
-              "duration": 882000000
+              "duration": 1117000000
             }
           },
           {
@@ -1679,11 +1684,11 @@
             "line": 26,
             "name": "I should see jobs blog page is open",
             "match": {
-              "location": "features\\step_definitions\\navigationBarStepDefs.js:43"
+              "location": "features\\step_definitions\\navigationBarStepDefs.js:23"
             },
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 14000000
             }
           },
           {
@@ -1694,7 +1699,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 356000000
+              "duration": 253000000
             }
           },
           {
@@ -1735,7 +1740,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 71000000
+              "duration": 53000000
             }
           },
           {
@@ -1744,11 +1749,11 @@
             "line": 4,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 10228000000
+              "duration": 9785000000
             }
           },
           {
@@ -1757,11 +1762,11 @@
             "line": 5,
             "name": "I enter job term 'Director'",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:6"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 361000000
+              "duration": 1329000000
             }
           },
           {
@@ -1770,11 +1775,11 @@
             "line": 6,
             "name": "I click search button",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:10"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 226000000
+              "duration": 2399000000
             }
           },
           {
@@ -1783,11 +1788,11 @@
             "line": 7,
             "name": "I should see relevant job results",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:14"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2124000000
+              "duration": 77000000
             }
           },
           {
@@ -1798,7 +1803,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 346000000
+              "duration": 249000000
             }
           },
           {
@@ -1808,8 +1813,7 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -1830,7 +1834,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 54000000
+              "duration": 64000000
             }
           },
           {
@@ -1839,11 +1843,11 @@
             "line": 14,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 11751000000
+              "duration": 12066000000
             }
           },
           {
@@ -1852,11 +1856,11 @@
             "line": 15,
             "name": "I enter job location 'UK'",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:18"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 356000000
+              "duration": 173000000
             }
           },
           {
@@ -1865,11 +1869,11 @@
             "line": 16,
             "name": "I click search button",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:10"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 142000000
+              "duration": 1022000000
             }
           },
           {
@@ -1878,11 +1882,11 @@
             "line": 17,
             "name": "I should see relevant job results",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:14"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 2111000000
+              "duration": 1685000000
             }
           },
           {
@@ -1893,7 +1897,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 270000000
+              "duration": 389000000
             }
           },
           {
@@ -1903,7 +1907,8 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
@@ -1924,7 +1929,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 72000000
             }
           },
           {
@@ -1933,11 +1938,11 @@
             "line": 24,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 7543000000
+              "duration": 11065000000
             }
           },
           {
@@ -1946,11 +1951,11 @@
             "line": 25,
             "name": "I enter job term 'Director'",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:6"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 341000000
+              "duration": 203000000
             }
           },
           {
@@ -1959,11 +1964,11 @@
             "line": 26,
             "name": "I enter job location 'UK'",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:18"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 1065000000
+              "duration": 227000000
             }
           },
           {
@@ -1972,11 +1977,11 @@
             "line": 27,
             "name": "I choose distance",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:22"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 387000000
+              "duration": 490000000
             }
           },
           {
@@ -1985,11 +1990,11 @@
             "line": 28,
             "name": "I click search button",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:10"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 174000000
+              "duration": 1229000000
             }
           },
           {
@@ -1998,11 +2003,11 @@
             "line": 29,
             "name": "I should see relevant job results",
             "match": {
-              "location": "features\\step_definitions\\searchJobsStepDefs.js:14"
+              "location": "features\\step_definitions\\searchJobsStepDefs.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 1969000000
+              "duration": 2165000000
             }
           },
           {
@@ -2013,7 +2018,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 275000000
+              "duration": 296000000
             }
           },
           {
@@ -2054,7 +2059,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 58000000
             }
           },
           {
@@ -2063,11 +2068,11 @@
             "line": 4,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 7862000000
+              "duration": 9672000000
             }
           },
           {
@@ -2076,11 +2081,11 @@
             "line": 5,
             "name": "I should see sign in link",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:14"
+              "location": "features\\step_definitions\\homePageStepDefs.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 655000000
+              "duration": 86000000
             }
           },
           {
@@ -2089,11 +2094,11 @@
             "line": 6,
             "name": "I click sign in link",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:6"
+              "location": "features\\step_definitions\\signInStepDefs.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 472000000
+              "duration": 593000000
             }
           },
           {
@@ -2102,11 +2107,11 @@
             "line": 7,
             "name": "I see sign in page open",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:10"
+              "location": "features\\step_definitions\\signInStepDefs.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 726000000
+              "duration": 713000000
             }
           },
           {
@@ -2115,11 +2120,11 @@
             "line": 8,
             "name": "I enter existing email",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:14"
+              "location": "features\\step_definitions\\signInStepDefs.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 883000000
+              "duration": 928000000
             }
           },
           {
@@ -2128,11 +2133,11 @@
             "line": 9,
             "name": "I enter password",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:18"
+              "location": "features\\step_definitions\\signInStepDefs.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 308000000
+              "duration": 294000000
             }
           },
           {
@@ -2141,11 +2146,11 @@
             "line": 10,
             "name": "I click sign in",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:22"
+              "location": "features\\step_definitions\\signInStepDefs.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 1387000000
+              "duration": 1496000000
             }
           },
           {
@@ -2154,11 +2159,11 @@
             "line": 11,
             "name": "I should be sucessfully signed in",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:26"
+              "location": "features\\step_definitions\\signInStepDefs.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 567000000
+              "duration": 621000000
             }
           },
           {
@@ -2169,7 +2174,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 332000000
+              "duration": 325000000
             }
           },
           {
@@ -2179,8 +2184,7 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -2201,7 +2205,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 55000000
             }
           },
           {
@@ -2210,11 +2214,11 @@
             "line": 14,
             "name": "I go to the jobs page",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:6"
+              "location": "features\\step_definitions\\homePageStepDefs.js:5"
             },
             "result": {
               "status": "passed",
-              "duration": 9523000000
+              "duration": 9855000000
             }
           },
           {
@@ -2223,11 +2227,11 @@
             "line": 15,
             "name": "I should see sign in link",
             "match": {
-              "location": "features\\step_definitions\\homePageStepDefs.js:14"
+              "location": "features\\step_definitions\\homePageStepDefs.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 331000000
+              "duration": 630000000
             }
           },
           {
@@ -2236,11 +2240,11 @@
             "line": 16,
             "name": "I click sign in link",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:6"
+              "location": "features\\step_definitions\\signInStepDefs.js:4"
             },
             "result": {
               "status": "passed",
-              "duration": 540000000
+              "duration": 664000000
             }
           },
           {
@@ -2249,11 +2253,11 @@
             "line": 17,
             "name": "I see sign in page open",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:10"
+              "location": "features\\step_definitions\\signInStepDefs.js:6"
             },
             "result": {
               "status": "passed",
-              "duration": 1101000000
+              "duration": 807000000
             }
           },
           {
@@ -2262,11 +2266,11 @@
             "line": 18,
             "name": "I enter incorrect email",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:29"
+              "location": "features\\step_definitions\\signInStepDefs.js:15"
             },
             "result": {
               "status": "passed",
-              "duration": 753000000
+              "duration": 761000000
             }
           },
           {
@@ -2275,11 +2279,11 @@
             "line": 19,
             "name": "I enter password",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:18"
+              "location": "features\\step_definitions\\signInStepDefs.js:10"
             },
             "result": {
               "status": "passed",
-              "duration": 216000000
+              "duration": 229000000
             }
           },
           {
@@ -2288,7 +2292,7 @@
             "line": 20,
             "name": "I click sign in",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:22"
+              "location": "features\\step_definitions\\signInStepDefs.js:12"
             },
             "result": {
               "status": "passed",
@@ -2301,11 +2305,11 @@
             "line": 21,
             "name": "I should see error message for incorrect details",
             "match": {
-              "location": "features\\step_definitions\\signInStepDefs.js:33"
+              "location": "features\\step_definitions\\signInStepDefs.js:17"
             },
             "result": {
               "status": "passed",
-              "duration": 1008000000
+              "duration": 743000000
             }
           },
           {
@@ -2316,7 +2320,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 453000000
+              "duration": 264000000
             }
           },
           {
@@ -2326,8 +2330,7 @@
               "location": "features\\step_definitions\\setup.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
