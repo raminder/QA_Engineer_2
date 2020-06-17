@@ -7,7 +7,7 @@ class SignIn {
   clickSignInLink() {
     return World.driver.findElement(By.linkText('Sign in')).click().then(() => {
       // Wait for sign in page to be rendered
-      World.driver.manage().setTimeouts({ implicit: 10000 });
+      return World.driver.manage().setTimeouts({ implicit: 10000 });
     });
   }
 
@@ -27,7 +27,7 @@ class SignIn {
 
   clickSignInButton() {
     return World.driver.findElement(By.css('input[value*="Sign in"]')).click().then(() => {
-      World.driver.manage().setTimeouts({ implicit: 10000 });
+      return World.driver.manage().setTimeouts({ implicit: 10000 });
     });
   }
 
