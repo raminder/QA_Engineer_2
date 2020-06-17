@@ -43,13 +43,13 @@ class CreateAccount {
     }
 
     clickCreateAccountButton() {
-        return World.driver.findElement(By.css('input[value*="Create an account"]')).click();
-
+        return World.driver.findElement(By.css('input[value*="Create an account"]')).click().then(() => {
+            //Wait for registartion success page to be rendered
+            return World.driver.wait(until.elementLocated(By.xpath("//h1[text()='Account created']")), 10 * 1000);
+        });
     }
 
     registerSucessfully() {
-        //Wait for registartion success page to be rendered
-        World.driver.wait(until.elementLocated(By.xpath("//h1[text()='Account created']")), 5 * 1000);
         return World.driver.findElement(By.id('message')).isDisplayed().then(value => {
             if (value) {
                 return World.driver.findElement(By.id('message')).getText().then(message => {
@@ -57,7 +57,7 @@ class CreateAccount {
                     //Storing regsitered email id in users array
                     return World.users.push(currentEmail);
                 });
-            } 
+            }
             return true
         });
     }

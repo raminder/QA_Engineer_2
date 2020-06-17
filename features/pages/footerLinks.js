@@ -7,43 +7,43 @@ class Footer {
 
     IsAboutUsLinkClickable() {
         return World.driver.findElement(By.linkText('About Us')).click().then(() => {
-            return World.driver.wait(until.elementLocated(By.css('.wrapper h1')), 10 * 1000).then(() =>{
+            return World.driver.wait(until.elementLocated(By.css('.wrapper h1')), 10 * 1000).then(() => {
                 return World.driver.getCurrentUrl().then((url) => {
                     return chai.expect(url).to.include('about-us');
                 });
             });
         });
-           
-}
+
+    }
 
     IsContactUsLinkClickable() {
         return World.driver.findElement(By.linkText('Contact Us')).click().then(() => {
-        return World.driver.wait(until.elementLocated(By.css('.wrapper h1')), 10 * 1000).then(() =>{
-            return World.driver.getCurrentUrl().then((url) => {
-                chai.expect(url).to.include('contact-us');
+            return World.driver.wait(until.elementLocated(By.css('.wrapper h1')), 10 * 1000).then(() => {
+                return World.driver.getCurrentUrl().then((url) => {
+                    chai.expect(url).to.include('contact-us');
+                });
             });
         });
-    });
     }
 
     IsTncLinkClickable() {
         return World.driver.findElement(By.linkText('Terms & Conditions')).click().then(() => {
-            return World.driver.wait(until.elementLocated(By.css('.wrapper h1')), 10 * 1000).then(() =>{
-            return World.driver.getCurrentUrl().then((url) => {
-                chai.expect(url).to.include('terms-and-conditions');
+            return World.driver.wait(until.elementLocated(By.css('.wrapper h1')), 10 * 1000).then(() => {
+                return World.driver.getCurrentUrl().then((url) => {
+                    chai.expect(url).to.include('terms-and-conditions');
+                });
             });
         });
-    });
     }
 
     IsPrivacyPolicyClickable() {
         return World.driver.findElement(By.linkText('Privacy Policy')).click().then(() => {
-            return World.driver.wait(until.elementLocated(By.css('.wrapper h1')), 10 * 1000).then(() =>{
-            return World.driver.getCurrentUrl().then((url) => {
-                chai.expect(url).to.include('privacy-policy');
+            return World.driver.wait(until.elementLocated(By.css('.wrapper h1')), 10 * 1000).then(() => {
+                return World.driver.getCurrentUrl().then((url) => {
+                    chai.expect(url).to.include('privacy-policy');
+                });
             });
         });
-    });
     }
 
     IsAdvertiseLinkClickable() {

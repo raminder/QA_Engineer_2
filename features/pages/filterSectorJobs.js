@@ -21,7 +21,7 @@ class FilterSectorJobs {
 
     clickViewJobDetailsLink() {
         return World.driver.findElement(By.css('.lister__view-details')).click().then(() => {
-            return World.driver.wait(until.elementLocated(By.css('.job-pagination')), 10 * 1000);
+            return World.driver.manage().setTimeouts({ implicit: 10000 });
         });
     }
 
