@@ -1,4 +1,4 @@
-const { Given, Then, When, And } = require('cucumber');
+const { Given, Then, When } = require('cucumber');
 const { By } = require('selenium-webdriver');
 const World = require('../support/world');
 const navigationBar = require('../pages/navigationBar');

@@ -1,4 +1,4 @@
-Feature: Seach Jobs Functionality
+Feature: Search Jobs Functionality
 
   Scenario Outline: User is able to search jobs for a specific title
     Given I go to the jobs page
