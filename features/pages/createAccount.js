@@ -44,8 +44,8 @@ class CreateAccount {
 
   clickCreateAccountButton() {
     return World.driver.findElement(By.css('input[value*="Create an account"]')).click().then(() => {
-    // Wait for registartion success page to be rendered
-      World.driver.wait(until.elementLocated(By.xpath("//h1[text()='Account created']")), 10 * 1000);
+    // Wait for registration success page to be rendered
+      return World.driver.wait(until.elementLocated(By.xpath("//h1[text()='Account created']")), 10 * 1000);
     });
   }
 
@@ -54,7 +54,7 @@ class CreateAccount {
       if (value) {
         return World.driver.findElement(By.id('message')).getText().then((message) => {
           chai.expect(message).to.include(`We have sent a confirmation email to ${currentEmail}`);
-          // Storing regsitered email id in users array
+          // Storing registered email id in users array
           return World.users.push(currentEmail);
         });
       }
