@@ -19,6 +19,6 @@ When('I enter job location {string}', async (location) => {
   return searchJobs.searchWithLocation(location);
 });
 
-When('I choose distance', async () =>{
+When('I choose distance', async () => {
   return searchJobs.selectDistance();
 });

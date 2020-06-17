@@ -23,7 +23,7 @@ class SearchJobs {
     clickSearchButton() {
         return World.driver.findElement(By.className('width-full')).click().then(() => {
             // Wait for search results page to be rendered
-            return World.driver.wait(until.elementLocated(By.id('searching')), 10 * 1000);
+            return World.driver.manage().setTimeouts({ implicit: 10000 });
         });
     }
 
